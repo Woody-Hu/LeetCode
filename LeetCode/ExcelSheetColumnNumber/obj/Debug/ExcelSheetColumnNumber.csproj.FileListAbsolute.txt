@@ -1,5 +1,0 @@
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\ExcelSheetColumnNumber\bin\Debug\ExcelSheetColumnNumber.dll
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\ExcelSheetColumnNumber\bin\Debug\ExcelSheetColumnNumber.pdb
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\ExcelSheetColumnNumber\obj\Debug\ExcelSheetColumnNumber.csprojResolveAssemblyReference.cache
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\ExcelSheetColumnNumber\obj\Debug\ExcelSheetColumnNumber.dll
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\ExcelSheetColumnNumber\obj\Debug\ExcelSheetColumnNumber.pdb
