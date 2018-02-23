@@ -1,5 +1,0 @@
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\LeetCode\bin\Debug\LeetCode.dll
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\LeetCode\bin\Debug\LeetCode.pdb
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\LeetCode\obj\Debug\LeetCode.csprojResolveAssemblyReference.cache
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\LeetCode\obj\Debug\LeetCode.dll
-D:\GITHUB\C_Sharp_WorkSpace\LeetCode\LeetCode\LeetCode\obj\Debug\LeetCode.pdb
