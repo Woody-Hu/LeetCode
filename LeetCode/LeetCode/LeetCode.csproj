@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3DBE008-3565-4A86-A2F8-614FFA9F7046}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeetCode</RootNamespace>
+    <AssemblyName>LeetCode</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBinary.cs" />
+    <Compile Include="ArrayPartitionI.cs" />
+    <Compile Include="AverageofLevelsinBinaryTree.cs" />
+    <Compile Include="BaseballGame.cs" />
+    <Compile Include="BestTimetoBuyandSellStockII.cs" />
+    <Compile Include="BinaryNumberwithAlternatingBits.cs" />
+    <Compile Include="ConvertSortedArraytoBinarySearchTree.cs" />
+    <Compile Include="CountBinarySubstrings.cs" />
+    <Compile Include="CountofSmallerNumbersAfterSelf.cs" />
+    <Compile Include="CountPrimes.cs" />
+    <Compile Include="DetectCapital.cs" />
+    <Compile Include="DistributeCandies.cs" />
+    <Compile Include="FindAnagramMappings.cs" />
+    <Compile Include="JewelsandStones.cs" />
+    <Compile Include="JudgeRouteCircle.cs" />
+    <Compile Include="LetterCombinationsofaPhoneNumber.cs" />
+    <Compile Include="LongestCommonPrefix .cs" />
+    <Compile Include="ClimbingStairs.cs" />
+    <Compile Include="ExcelSheetColumnNumber.cs" />
+    <Compile Include="HappyNumber.cs" />
+    <Compile Include="Intersection of Two Arrays.cs" />
+    <Compile Include="IsomorphicStrings.cs" />
+    <Compile Include="LinkedListCycle.cs" />
+    <Compile Include="LongestUncommonSubsequenceI.cs" />
+    <Compile Include="Manger.cs" />
+    <Compile Include="MaxAreaofIsland.cs" />
+    <Compile Include="MergeTwoBinaryTrees.cs" />
+    <Compile Include="MinStack.cs" />
+    <Compile Include="MissingNumber.cs" />
+    <Compile Include="Move Zeroes.cs" />
+    <Compile Include="PalindromeLinkedList.cs" />
+    <Compile Include="PrimeNumberofSetBitsinBinaryRepresentation.cs" />
+    <Compile Include="ProductofArrayExceptSelf.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReshapetheMatrix.cs" />
+    <Compile Include="Reverse String%28344%29.cs" />
+    <Compile Include="ReverseBits.cs" />
+    <Compile Include="ReverseWordsinaStringIII.cs" />
+    <Compile Include="RotateArray.cs" />
+    <Compile Include="SearchInsertPosition.cs" />
+    <Compile Include="SelfDividingNumbers.cs" />
+    <Compile Include="ShoppingOffers.cs" />
+    <Compile Include="SqrtMethod.cs" />
+    <Compile Include="ToeplitzMatrix.cs" />
+    <Compile Include="TreeNode.cs" />
+    <Compile Include="TrimaBinarySearchTree.cs" />
+    <Compile Include="Two Sum.cs" />
+    <Compile Include="TwoSumII.cs" />
+    <Compile Include="TwoSumIV-InputisaBST.cs" />
+    <Compile Include="UglyNumber.cs" />
+    <Compile Include="ValidAnagram.cs" />
+    <Compile Include="ValidPalindrome.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
