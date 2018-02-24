@@ -11,12 +11,14 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
+            
 
-            DetectCapital a = new DetectCapital();
-            a.DetectCapitalUse("FlaG");
 
         }
+
+
     }
+
 
    
 }

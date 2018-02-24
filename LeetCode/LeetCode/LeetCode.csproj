@@ -53,6 +53,7 @@
     <Compile Include="DistributeCandies.cs" />
     <Compile Include="EncodeandDecodeTinyURL.cs" />
     <Compile Include="FindAnagramMappings.cs" />
+    <Compile Include="IsSubsequenceSolution.cs" />
     <Compile Include="JewelsandStones.cs" />
     <Compile Include="JudgeRouteCircle.cs" />
     <Compile Include="LetterCombinationsofaPhoneNumber.cs" />
