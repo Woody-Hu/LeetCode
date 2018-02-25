@@ -54,6 +54,8 @@
     <Compile Include="DistributeCandies.cs" />
     <Compile Include="EncodeandDecodeTinyURL.cs" />
     <Compile Include="FindAnagramMappings.cs" />
+    <Compile Include="FindtheClosestPalindrome.cs" />
+    <Compile Include="FirstUniqueCharacterinaString.cs" />
     <Compile Include="IsSubsequenceSolution.cs" />
     <Compile Include="JewelsandStones.cs" />
     <Compile Include="JudgeRouteCircle.cs" />
@@ -72,6 +74,7 @@
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="Move Zeroes.cs" />
+    <Compile Include="NumberofAtoms.cs" />
     <Compile Include="PalindromeLinkedList.cs" />
     <Compile Include="PrimeNumberofSetBitsinBinaryRepresentation.cs" />
     <Compile Include="ProductofArrayExceptSelf.cs" />
