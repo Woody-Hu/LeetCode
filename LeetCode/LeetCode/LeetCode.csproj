@@ -84,6 +84,7 @@
     <Compile Include="ReverseBits.cs" />
     <Compile Include="ReverseWordsinaStringIII.cs" />
     <Compile Include="RotateArray.cs" />
+    <Compile Include="RotateImage.cs" />
     <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="SelfDividingNumbers.cs" />
     <Compile Include="ShoppingOffers.cs" />
