@@ -60,6 +60,7 @@
     <Compile Include="JewelsandStones.cs" />
     <Compile Include="JudgeRouteCircle.cs" />
     <Compile Include="LetterCombinationsofaPhoneNumber.cs" />
+    <Compile Include="LexicographicalNumbers.cs" />
     <Compile Include="LongestCommonPrefix .cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="ExcelSheetColumnNumber.cs" />
