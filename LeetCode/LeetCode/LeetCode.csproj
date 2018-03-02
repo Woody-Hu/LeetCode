@@ -56,6 +56,7 @@
     <Compile Include="FindAnagramMappings.cs" />
     <Compile Include="FindtheClosestPalindrome.cs" />
     <Compile Include="FirstUniqueCharacterinaString.cs" />
+    <Compile Include="Interval.cs" />
     <Compile Include="IsSubsequenceSolution.cs" />
     <Compile Include="JewelsandStones.cs" />
     <Compile Include="JudgeRouteCircle.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="LongestUncommonSubsequenceI.cs" />
     <Compile Include="Manger.cs" />
     <Compile Include="MaxAreaofIsland.cs" />
+    <Compile Include="MergeIntervals.cs" />
     <Compile Include="MergeTwoBinaryTrees.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingNumber.cs" />
