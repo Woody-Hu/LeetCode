@@ -60,6 +60,7 @@
     <Compile Include="IsSubsequenceSolution.cs" />
     <Compile Include="JewelsandStones.cs" />
     <Compile Include="JudgeRouteCircle.cs" />
+    <Compile Include="LargestDivisibleSubset.cs" />
     <Compile Include="LetterCombinationsofaPhoneNumber.cs" />
     <Compile Include="LexicographicalNumbers.cs" />
     <Compile Include="LFUCache.cs" />
