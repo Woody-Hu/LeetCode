@@ -92,6 +92,7 @@
     <Compile Include="RotateArray.cs" />
     <Compile Include="RotateFunction.cs" />
     <Compile Include="RotateImage.cs" />
+    <Compile Include="SearchinRotatedSortedArray.cs" />
     <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="SelfDividingNumbers.cs" />
     <Compile Include="ShoppingOffers.cs" />
