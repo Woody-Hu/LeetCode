@@ -90,6 +90,7 @@
     <Compile Include="ReverseBits.cs" />
     <Compile Include="ReverseWordsinaStringIII.cs" />
     <Compile Include="RotateArray.cs" />
+    <Compile Include="RotatedDigits.cs" />
     <Compile Include="RotateFunction.cs" />
     <Compile Include="RotateImage.cs" />
     <Compile Include="SearchinRotatedSortedArray.cs" />
