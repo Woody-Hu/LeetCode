@@ -54,6 +54,7 @@
     <Compile Include="DistributeCandies.cs" />
     <Compile Include="EncodeandDecodeTinyURL.cs" />
     <Compile Include="FindAnagramMappings.cs" />
+    <Compile Include="FindBottomLeftTreeValue.cs" />
     <Compile Include="FindtheClosestPalindrome.cs" />
     <Compile Include="FirstUniqueCharacterinaString.cs" />
     <Compile Include="Interval.cs" />
