@@ -101,6 +101,7 @@
     <Compile Include="ShoppingOffers.cs" />
     <Compile Include="ShuffleanArray.cs" />
     <Compile Include="SqrtMethod.cs" />
+    <Compile Include="SurroundedRegions.cs" />
     <Compile Include="TaskScheduler.cs" />
     <Compile Include="ToeplitzMatrix.cs" />
     <Compile Include="TreeNode.cs" />
