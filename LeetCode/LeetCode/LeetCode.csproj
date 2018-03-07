@@ -56,6 +56,7 @@
     <Compile Include="FindAnagramMappings.cs" />
     <Compile Include="FindBottomLeftTreeValue.cs" />
     <Compile Include="FindtheClosestPalindrome.cs" />
+    <Compile Include="FirstMissingPositive.cs" />
     <Compile Include="FirstUniqueCharacterinaString.cs" />
     <Compile Include="Interval.cs" />
     <Compile Include="IsSubsequenceSolution.cs" />
