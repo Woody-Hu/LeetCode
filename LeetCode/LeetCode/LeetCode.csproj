@@ -81,6 +81,7 @@
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="Move Zeroes.cs" />
+    <Compile Include="NthDigit.cs" />
     <Compile Include="NumberofAtoms.cs" />
     <Compile Include="PalindromeLinkedList.cs" />
     <Compile Include="PrimeNumberofSetBitsinBinaryRepresentation.cs" />
