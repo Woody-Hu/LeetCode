@@ -103,6 +103,7 @@
     <Compile Include="SqrtMethod.cs" />
     <Compile Include="SurroundedRegions.cs" />
     <Compile Include="TaskScheduler.cs" />
+    <Compile Include="ThirdMaximumNumber.cs" />
     <Compile Include="ToeplitzMatrix.cs" />
     <Compile Include="TreeNode.cs" />
     <Compile Include="TrimaBinarySearchTree.cs" />

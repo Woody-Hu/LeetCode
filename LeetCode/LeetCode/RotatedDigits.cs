@@ -8,7 +8,7 @@ namespace LeetCode
 {
     class RotatedDigits
     {
-        public int RotatedDigits(int N)
+        public int RotatedDigitsMethod(int N)
         {
             int returnValue = 0;
             for (int i = 1; i <= N; i++)

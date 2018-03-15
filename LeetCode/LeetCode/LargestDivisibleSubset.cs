@@ -8,7 +8,7 @@ namespace LeetCode
 {
     class LargestDivisibleSubset
     {
-        public IList<int> LargestDivisibleSubset(int[] nums)
+        public IList<int> LargestDivisibleSubsetMethod(int[] nums)
         {
             List<int> tempnums = nums.OrderBy(k => k).ToList();
 

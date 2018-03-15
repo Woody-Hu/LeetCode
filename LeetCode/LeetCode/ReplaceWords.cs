@@ -8,7 +8,7 @@ namespace LeetCode
 {
     class ReplaceWords
     {
-        public string ReplaceWords(IList<string> dict, string sentence)
+        public string ReplaceWordsMethod(IList<string> dict, string sentence)
         {
             string[] allsubString = sentence.Split(' ');
 
