@@ -48,6 +48,7 @@
     <Compile Include="ConstructStringfromBinaryTree.cs" />
     <Compile Include="ConvertSortedArraytoBinarySearchTree.cs" />
     <Compile Include="CountBinarySubstrings.cs" />
+    <Compile Include="CountCompleteTreeNodes.cs" />
     <Compile Include="CountofSmallerNumbersAfterSelf.cs" />
     <Compile Include="CountPrimes.cs" />
     <Compile Include="DetectCapital.cs" />
