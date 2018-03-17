@@ -51,6 +51,7 @@
     <Compile Include="CountofSmallerNumbersAfterSelf.cs" />
     <Compile Include="CountPrimes.cs" />
     <Compile Include="DetectCapital.cs" />
+    <Compile Include="DifferentWaystoAddParentheses.cs" />
     <Compile Include="DistributeCandies.cs" />
     <Compile Include="EncodeandDecodeTinyURL.cs" />
     <Compile Include="FindAnagramMappings.cs" />
