@@ -99,6 +99,7 @@
     <Compile Include="RotatedDigits.cs" />
     <Compile Include="RotateFunction.cs" />
     <Compile Include="RotateImage.cs" />
+    <Compile Include="ScrambleString.cs" />
     <Compile Include="SearchinRotatedSortedArray.cs" />
     <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="SelfDividingNumbers.cs" />
