@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1bitand2bitCharacters.cs" />
     <Compile Include="AddBinary.cs" />
     <Compile Include="ArrayPartitionI.cs" />
     <Compile Include="AverageofLevelsinBinaryTree.cs" />
