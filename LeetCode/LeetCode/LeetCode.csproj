@@ -92,6 +92,7 @@
     <Compile Include="PrimeNumberofSetBitsinBinaryRepresentation.cs" />
     <Compile Include="ProductofArrayExceptSelf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RangeSumQuery-Immutable.cs" />
     <Compile Include="ReachaNumber.cs" />
     <Compile Include="ReplaceWords.cs" />
     <Compile Include="ReshapetheMatrix.cs" />
