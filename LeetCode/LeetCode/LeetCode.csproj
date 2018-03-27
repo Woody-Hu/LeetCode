@@ -46,6 +46,7 @@
     <Compile Include="BaseballGame.cs" />
     <Compile Include="BestTimetoBuyandSellStockII.cs" />
     <Compile Include="BinaryNumberwithAlternatingBits.cs" />
+    <Compile Include="CalculateCoins.cs" />
     <Compile Include="ConstructStringfromBinaryTree.cs" />
     <Compile Include="ConvertSortedArraytoBinarySearchTree.cs" />
     <Compile Include="CountBinarySubstrings.cs" />
