@@ -80,6 +80,7 @@
     <Compile Include="IsomorphicStrings.cs" />
     <Compile Include="LinkedListCycle.cs" />
     <Compile Include="LongestUncommonSubsequenceI.cs" />
+    <Compile Include="LongestUncommonSubsequenceII.cs" />
     <Compile Include="Manger.cs" />
     <Compile Include="MaxAreaofIsland.cs" />
     <Compile Include="MergeIntervals.cs" />

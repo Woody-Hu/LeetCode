@@ -11,7 +11,9 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
+            LongestUncommonSubsequenceII useManger = new LongestUncommonSubsequenceII();
 
+            useManger.FindLUSlength(new string[] { "aabbcc", "aabbcc", "c", "e", "aabbcd" });
 
         }
 
