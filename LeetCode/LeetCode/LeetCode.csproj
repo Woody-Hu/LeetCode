@@ -64,6 +64,7 @@
     <Compile Include="FirstMissingPositive.cs" />
     <Compile Include="FirstUniqueCharacterinaString.cs" />
     <Compile Include="HouseRobberII.cs" />
+    <Compile Include="ImplementMagicDictionary.cs" />
     <Compile Include="Interval.cs" />
     <Compile Include="IsSubsequenceSolution.cs" />
     <Compile Include="JewelsandStones.cs" />
