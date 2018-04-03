@@ -16,7 +16,7 @@ namespace LeetCode
 
             int nowValue = 0;
 
-            char useTag = '+';
+            char useTag = '+';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 
             Stack<int> useStack = new Stack<int>();
 

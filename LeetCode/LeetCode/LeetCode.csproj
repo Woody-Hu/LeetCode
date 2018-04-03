@@ -56,6 +56,7 @@
     <Compile Include="CountofSmallerNumbersAfterSelf.cs" />
     <Compile Include="CountPrimes.cs" />
     <Compile Include="CustomSortString.cs" />
+    <Compile Include="DailyTemperatures.cs" />
     <Compile Include="DetectCapital.cs" />
     <Compile Include="DifferentWaystoAddParentheses.cs" />
     <Compile Include="DistributeCandies.cs" />
