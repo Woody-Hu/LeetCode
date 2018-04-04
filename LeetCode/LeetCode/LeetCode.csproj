@@ -90,6 +90,7 @@
     <Compile Include="MaxAreaofIsland.cs" />
     <Compile Include="MergeIntervals.cs" />
     <Compile Include="MergeTwoBinaryTrees.cs" />
+    <Compile Include="MinCostClimbingStairs.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="Move Zeroes.cs" />
