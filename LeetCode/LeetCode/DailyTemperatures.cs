@@ -8,7 +8,7 @@ namespace LeetCode
 {
     class DailyTemperatures
     {
-        public int[] DailyTemperatures(int[] temperatures)
+        public int[] DailyTemperaturesMethod(int[] temperatures)
         {
             Stack<int> useStack = new Stack<int>();
             int[] returnValue = new int[temperatures.Length];
