@@ -51,6 +51,7 @@
     <Compile Include="CalculateCoins.cs" />
     <Compile Include="Combinations.cs" />
     <Compile Include="ConstructStringfromBinaryTree.cs" />
+    <Compile Include="ConstructtheRectangle.cs" />
     <Compile Include="ConvertSortedArraytoBinarySearchTree.cs" />
     <Compile Include="CountBinarySubstrings.cs" />
     <Compile Include="CountCompleteTreeNodes.cs" />
