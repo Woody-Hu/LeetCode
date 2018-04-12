@@ -8,7 +8,7 @@ namespace LeetCode
 {
     class ConstructtheRectangle
     {
-        public int[] ConstructRectangle(int area)
+        public int[] ConstructRectangleMethod(int area)
         {
             int[] returnValue = new int[2];
 
