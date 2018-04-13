@@ -48,6 +48,7 @@
     <Compile Include="BasicCalculatorII.cs" />
     <Compile Include="BestTimetoBuyandSellStockII.cs" />
     <Compile Include="BinaryNumberwithAlternatingBits.cs" />
+    <Compile Include="BinaryTreeTilt.cs" />
     <Compile Include="CalculateCoins.cs" />
     <Compile Include="Combinations.cs" />
     <Compile Include="ConstructStringfromBinaryTree.cs" />
