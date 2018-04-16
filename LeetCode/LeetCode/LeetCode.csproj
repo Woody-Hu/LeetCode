@@ -97,6 +97,7 @@
     <Compile Include="MergeTwoBinaryTrees.cs" />
     <Compile Include="MinCostClimbingStairs.cs" />
     <Compile Include="MinimumAbsoluteDifferenceinBST.cs" />
+    <Compile Include="MinimumDistanceBetweenBSTNodes.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="Move Zeroes.cs" />
