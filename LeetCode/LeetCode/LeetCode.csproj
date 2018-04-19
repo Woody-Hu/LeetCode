@@ -61,6 +61,7 @@
     <Compile Include="CustomSortString.cs" />
     <Compile Include="DailyTemperatures.cs" />
     <Compile Include="DetectCapital.cs" />
+    <Compile Include="DiameterofBinaryTree.cs" />
     <Compile Include="DifferentWaystoAddParentheses.cs" />
     <Compile Include="DistributeCandies.cs" />
     <Compile Include="EncodeandDecodeTinyURL.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="MinimumDistanceBetweenBSTNodes.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingNumber.cs" />
+    <Compile Include="MostCommonWord.cs" />
     <Compile Include="Move Zeroes.cs" />
     <Compile Include="NthDigit.cs" />
     <Compile Include="NumberofAtoms.cs" />
