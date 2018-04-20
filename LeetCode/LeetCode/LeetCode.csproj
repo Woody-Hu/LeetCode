@@ -60,6 +60,7 @@
     <Compile Include="CountPrimes.cs" />
     <Compile Include="CustomSortString.cs" />
     <Compile Include="DailyTemperatures.cs" />
+    <Compile Include="DegreeofanArray.cs" />
     <Compile Include="DetectCapital.cs" />
     <Compile Include="DiameterofBinaryTree.cs" />
     <Compile Include="DifferentWaystoAddParentheses.cs" />
