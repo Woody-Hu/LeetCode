@@ -108,6 +108,7 @@
     <Compile Include="MostCommonWord.cs" />
     <Compile Include="Move Zeroes.cs" />
     <Compile Include="NthDigit.cs" />
+    <Compile Include="NumArray.cs" />
     <Compile Include="NumberofAtoms.cs" />
     <Compile Include="PalindromeLinkedList.cs" />
     <Compile Include="PrimeNumberofSetBitsinBinaryRepresentation.cs" />
