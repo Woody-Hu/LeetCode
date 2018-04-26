@@ -77,7 +77,7 @@ namespace LeetCode
             {
                 useNode.sum = useValue;
             }
-            else
+            else  
             {
                 int midIndex = useNode.startIndex + (useNode.endIndex - useNode.startIndex) / 2 ;
 

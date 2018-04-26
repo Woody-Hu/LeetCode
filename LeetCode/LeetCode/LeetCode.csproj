@@ -43,6 +43,7 @@
     <Compile Include="AddBinary.cs" />
     <Compile Include="ArrayPartitionI.cs" />
     <Compile Include="AverageofLevelsinBinaryTree.cs" />
+    <Compile Include="Base7.cs" />
     <Compile Include="BaseballGame.cs" />
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="BasicCalculatorII.cs" />
