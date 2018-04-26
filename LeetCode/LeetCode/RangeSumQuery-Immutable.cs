@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
-    class NumArray
+    class NumArray2
     {
         int[] m_useNums;
 
-        public NumArray(int[] nums)
+        public NumArray2(int[] nums)
         {
             for (int i = 1; i < nums.Length; i++)
                 nums[i] += nums[i - 1];
