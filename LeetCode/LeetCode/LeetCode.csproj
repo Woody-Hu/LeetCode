@@ -135,6 +135,7 @@
     <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="SelfDividingNumbers.cs" />
     <Compile Include="ShoppingOffers.cs" />
+    <Compile Include="ShortestDistancetoaCharacter.cs" />
     <Compile Include="ShuffleanArray.cs" />
     <Compile Include="SqrtMethod.cs" />
     <Compile Include="SurroundedRegions.cs" />
