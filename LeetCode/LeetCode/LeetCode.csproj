@@ -105,6 +105,7 @@
     <Compile Include="MinCostClimbingStairs.cs" />
     <Compile Include="MinimumAbsoluteDifferenceinBST.cs" />
     <Compile Include="MinimumDistanceBetweenBSTNodes.cs" />
+    <Compile Include="MinimumPathSum.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="MostCommonWord.cs" />
