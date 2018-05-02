@@ -114,6 +114,7 @@
     <Compile Include="NumArray.cs" />
     <Compile Include="NumberofAtoms.cs" />
     <Compile Include="PalindromeLinkedList.cs" />
+    <Compile Include="PermutationSequence.cs" />
     <Compile Include="PrimeNumberofSetBitsinBinaryRepresentation.cs" />
     <Compile Include="ProductofArrayExceptSelf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
