@@ -69,6 +69,7 @@
     <Compile Include="EncodeandDecodeTinyURL.cs" />
     <Compile Include="FindAnagramMappings.cs" />
     <Compile Include="FindBottomLeftTreeValue.cs" />
+    <Compile Include="FindSmallestLetterGreaterThanTarget.cs" />
     <Compile Include="FindtheClosestPalindrome.cs" />
     <Compile Include="FirstMissingPositive.cs" />
     <Compile Include="FirstUniqueCharacterinaString.cs" />
