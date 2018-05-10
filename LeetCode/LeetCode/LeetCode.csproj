@@ -107,6 +107,7 @@
     <Compile Include="MinCostClimbingStairs.cs" />
     <Compile Include="MinimumAbsoluteDifferenceinBST.cs" />
     <Compile Include="MinimumDistanceBetweenBSTNodes.cs" />
+    <Compile Include="MinimumIndexSumofTwoLists.cs" />
     <Compile Include="MinimumPathSum.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingNumber.cs" />
@@ -118,6 +119,7 @@
     <Compile Include="NumberofMatchingSubsequences.cs" />
     <Compile Include="PalindromeLinkedList.cs" />
     <Compile Include="PermutationSequence.cs" />
+    <Compile Include="PositionsofLargeGroups.cs" />
     <Compile Include="PrimeNumberofSetBitsinBinaryRepresentation.cs" />
     <Compile Include="ProductofArrayExceptSelf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
