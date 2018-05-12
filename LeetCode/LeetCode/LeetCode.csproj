@@ -146,6 +146,7 @@
     <Compile Include="ShortestDistancetoaCharacter.cs" />
     <Compile Include="ShuffleanArray.cs" />
     <Compile Include="SqrtMethod.cs" />
+    <Compile Include="StudentAttendanceRecordI.cs" />
     <Compile Include="SubsetsII.cs" />
     <Compile Include="SurroundedRegions.cs" />
     <Compile Include="TaskScheduler.cs" />
