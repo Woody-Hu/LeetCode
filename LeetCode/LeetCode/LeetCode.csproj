@@ -109,6 +109,7 @@
     <Compile Include="MinimumDistanceBetweenBSTNodes.cs" />
     <Compile Include="MinimumIndexSumofTwoLists.cs" />
     <Compile Include="MinimumPathSum.cs" />
+    <Compile Include="MinimumSizeSubarraySum.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="MostCommonWord.cs" />
