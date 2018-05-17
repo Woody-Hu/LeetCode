@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="1bitand2bitCharacters.cs" />
     <Compile Include="AddBinary.cs" />
+    <Compile Include="AddStrings.cs" />
     <Compile Include="ArrayPartitionI.cs" />
     <Compile Include="AverageofLevelsinBinaryTree.cs" />
     <Compile Include="Base7.cs" />
