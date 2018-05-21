@@ -96,6 +96,7 @@
     <Compile Include="Intersection of Two Arrays.cs" />
     <Compile Include="IsomorphicStrings.cs" />
     <Compile Include="LinkedListCycle.cs" />
+    <Compile Include="LongestContinuousIncreasingSubsequence.cs" />
     <Compile Include="LongestPalindrome.cs" />
     <Compile Include="LongestUncommonSubsequenceI.cs" />
     <Compile Include="LongestUncommonSubsequenceII.cs" />
