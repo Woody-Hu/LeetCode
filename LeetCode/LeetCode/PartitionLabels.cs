@@ -8,7 +8,7 @@ namespace LeetCode
 {
     class PartitionLabels
     {
-        public IList<int> PartitionLabels(string S)
+        public IList<int> PartitionLabelsMethod(string S)
         {
             List<int> returnValue = new List<int>();
 

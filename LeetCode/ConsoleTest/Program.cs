@@ -11,7 +11,9 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-           
+            RepeatedSubstringPattern a = new RepeatedSubstringPattern();
+
+            a.RepeatedSubstringPatternMethod("abab");
         }
 
 

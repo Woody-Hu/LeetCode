@@ -132,6 +132,7 @@
     <Compile Include="RangeSumQuery-Immutable.cs" />
     <Compile Include="ReachaNumber.cs" />
     <Compile Include="RelativeRanks.cs" />
+    <Compile Include="RepeatedSubstringPattern.cs" />
     <Compile Include="ReplaceWords.cs" />
     <Compile Include="ReshapetheMatrix.cs" />
     <Compile Include="RestoreIPAddresses.cs" />
