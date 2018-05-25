@@ -148,6 +148,7 @@
     <Compile Include="ScrambleString.cs" />
     <Compile Include="SearchinRotatedSortedArray.cs" />
     <Compile Include="SearchInsertPosition.cs" />
+    <Compile Include="SecondMinimumNodeInaBinaryTree.cs" />
     <Compile Include="SelfDividingNumbers.cs" />
     <Compile Include="SetMismatch.cs" />
     <Compile Include="ShoppingOffers.cs" />
