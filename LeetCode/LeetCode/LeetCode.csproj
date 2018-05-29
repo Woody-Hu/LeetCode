@@ -85,6 +85,7 @@
     <Compile Include="JudgeRouteCircle.cs" />
     <Compile Include="LargestDivisibleSubset.cs" />
     <Compile Include="LargestNumber.cs" />
+    <Compile Include="LargestNumberAtLeastTwiceofOthers.cs" />
     <Compile Include="LargestTriangleArea.cs" />
     <Compile Include="LetterCasePermutation.cs" />
     <Compile Include="LetterCombinationsofaPhoneNumber.cs" />
