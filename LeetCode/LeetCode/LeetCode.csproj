@@ -128,6 +128,7 @@
     <Compile Include="PalindromeLinkedList.cs" />
     <Compile Include="PartitionLabels.cs" />
     <Compile Include="PermutationSequence.cs" />
+    <Compile Include="PoorPigs.cs" />
     <Compile Include="PositionsofLargeGroups.cs" />
     <Compile Include="PrimeNumberofSetBitsinBinaryRepresentation.cs" />
     <Compile Include="ProductofArrayExceptSelf.cs" />
