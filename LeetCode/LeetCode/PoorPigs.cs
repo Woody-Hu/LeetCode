@@ -8,7 +8,7 @@ namespace LeetCode
 {
     class PoorPigs
     {
-        public int PoorPigs(int buckets, int minutesToDie, int minutesToTest)
+        public int PoorPigsMethod(int buckets, int minutesToDie, int minutesToTest)
         {
             return (int)Math.Ceiling(Math.Log(buckets) / Math.Log(minutesToTest / minutesToDie + 1));
         }

@@ -126,6 +126,7 @@
     <Compile Include="NumberofAtoms.cs" />
     <Compile Include="NumberofMatchingSubsequences.cs" />
     <Compile Include="PalindromeLinkedList.cs" />
+    <Compile Include="PartitionEqualSubsetSum.cs" />
     <Compile Include="PartitionLabels.cs" />
     <Compile Include="PermutationSequence.cs" />
     <Compile Include="PoorPigs.cs" />
