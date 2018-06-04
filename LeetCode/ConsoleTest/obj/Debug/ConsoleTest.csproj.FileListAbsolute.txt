@@ -1,1 +1,0 @@
-D:\GitHub\LeetCode\LeetCode\ConsoleTest\bin\Debug\ConsoleTest.exe.config
