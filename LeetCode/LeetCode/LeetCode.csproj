@@ -166,6 +166,7 @@
     <Compile Include="StudentAttendanceRecordI.cs" />
     <Compile Include="SubarrayProductLessThanK.cs" />
     <Compile Include="SubsetsII.cs" />
+    <Compile Include="SubtreeofAnotherTree.cs" />
     <Compile Include="SurroundedRegions.cs" />
     <Compile Include="TaskScheduler.cs" />
     <Compile Include="ThirdMaximumNumber.cs" />
