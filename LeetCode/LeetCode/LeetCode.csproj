@@ -163,6 +163,7 @@
     <Compile Include="SelfDividingNumbers.cs" />
     <Compile Include="SetMismatch.cs" />
     <Compile Include="ShoppingOffers.cs" />
+    <Compile Include="ShortEncodingofWords.cs" />
     <Compile Include="ShortestDistancetoaCharacter.cs" />
     <Compile Include="ShuffleanArray.cs" />
     <Compile Include="SqrtMethod.cs" />
