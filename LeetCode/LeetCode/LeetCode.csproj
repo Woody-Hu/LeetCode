@@ -110,6 +110,7 @@
     <Compile Include="LongestWordinDictionary.cs" />
     <Compile Include="Manger.cs" />
     <Compile Include="MaxAreaofIsland.cs" />
+    <Compile Include="MaximizeDistancetoClosestPerson.cs" />
     <Compile Include="MaximumAverageSubarrayI.cs" />
     <Compile Include="MaximumGap.cs" />
     <Compile Include="MaximumLengthofRepeatedSubarray.cs" />
