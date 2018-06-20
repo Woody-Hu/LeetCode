@@ -155,6 +155,7 @@
     <Compile Include="Reverse String%28344%29.cs" />
     <Compile Include="ReverseBits.cs" />
     <Compile Include="ReverseStringII.cs" />
+    <Compile Include="ReverseWordsinaString.cs" />
     <Compile Include="ReverseWordsinaStringIII.cs" />
     <Compile Include="RotateArray.cs" />
     <Compile Include="RotatedDigits.cs" />
