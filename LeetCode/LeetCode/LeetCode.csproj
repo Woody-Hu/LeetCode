@@ -178,6 +178,7 @@
     <Compile Include="SubsetsII.cs" />
     <Compile Include="SubtreeofAnotherTree.cs" />
     <Compile Include="SurroundedRegions.cs" />
+    <Compile Include="TargetSum.cs" />
     <Compile Include="TaskScheduler.cs" />
     <Compile Include="ThirdMaximumNumber.cs" />
     <Compile Include="ToeplitzMatrix.cs" />
