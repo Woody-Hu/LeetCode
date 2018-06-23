@@ -82,6 +82,7 @@
     <Compile Include="FirstMissingPositive.cs" />
     <Compile Include="FirstUniqueCharacterinaString.cs" />
     <Compile Include="HouseRobberII.cs" />
+    <Compile Include="ImageSmoother.cs" />
     <Compile Include="ImplementMagicDictionary.cs" />
     <Compile Include="IntegertoEnglishWords.cs" />
     <Compile Include="Interval.cs" />
