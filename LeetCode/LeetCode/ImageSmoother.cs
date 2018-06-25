@@ -8,7 +8,7 @@ namespace LeetCode
 {
     class ImageSmoother
     {
-        public int[,] ImageSmoother(int[,] M)
+        public int[,] ImageSmootherMethod(int[,] M)
         {
             int lengthRow = M.GetLength(0);
 

@@ -97,6 +97,7 @@
     <Compile Include="LetterCombinationsofaPhoneNumber.cs" />
     <Compile Include="LexicographicalNumbers.cs" />
     <Compile Include="LFUCache.cs" />
+    <Compile Include="LicenseKeyFormatting.cs" />
     <Compile Include="LongestCommonPrefix .cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="ExcelSheetColumnNumber.cs" />
