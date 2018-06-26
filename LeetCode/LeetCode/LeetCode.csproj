@@ -76,6 +76,7 @@
     <Compile Include="FindAllAnagramsinaString.cs" />
     <Compile Include="FindAnagramMappings.cs" />
     <Compile Include="FindBottomLeftTreeValue.cs" />
+    <Compile Include="FindModeinBinarySearchTree.cs" />
     <Compile Include="FindPivotIndex.cs" />
     <Compile Include="FindSmallestLetterGreaterThanTarget.cs" />
     <Compile Include="FindtheClosestPalindrome.cs" />
