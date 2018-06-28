@@ -11,8 +11,7 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            LicenseKeyFormatting a = new LicenseKeyFormatting();
-            a.LicenseKeyFormattingMethod("5F3Za-2e5539-9-w", 4);
+
  
         }
 
