@@ -185,6 +185,7 @@
     <Compile Include="SubarrayProductLessThanK.cs" />
     <Compile Include="SubsetsII.cs" />
     <Compile Include="SubtreeofAnotherTree.cs" />
+    <Compile Include="SumofSquareNumbers.cs" />
     <Compile Include="SurroundedRegions.cs" />
     <Compile Include="TargetSum.cs" />
     <Compile Include="TaskScheduler.cs" />
