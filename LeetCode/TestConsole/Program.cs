@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode;
+using System;
 
 namespace TestConsole
 {
@@ -6,7 +7,7 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
-            
+  
         }
     }
 }
