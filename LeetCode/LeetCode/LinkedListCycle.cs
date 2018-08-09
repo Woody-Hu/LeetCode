@@ -7,15 +7,6 @@ using System.Threading.Tasks;
 namespace LeetCode
 {
 
- public class ListNode {
-    public int val;
-    public ListNode next;
-     public ListNode(int x) {
-         val = x;
-        next = null;
-     }
- }
-
     public partial class Solution
     {
         public bool HasCycle(ListNode head)
