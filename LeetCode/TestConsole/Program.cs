@@ -1,5 +1,6 @@
 ﻿using LeetCode;
 using System;
+using System.Collections.Generic;
 
 namespace TestConsole
 {
