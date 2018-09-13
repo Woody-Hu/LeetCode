@@ -18,7 +18,7 @@ namespace LeetCode
                 {
                     for (int k = j + 1; k < j + 4 && k < len; k++)
                     {
-                        String s1 = s.Substring(0, i -1), s2 = s.Substring(i, j -1  - i), s3 = s.Substring(j, k -1 - j), s4 = s.Substring(k, len -1  -k);
+                        String s1 = s.Substring(0, i ), s2 = s.Substring(i, j   - i), s3 = s.Substring(j, k  - j), s4 = s.Substring(k, len   -k);
                         if (isValid(s1) && isValid(s2) && isValid(s3) && isValid(s4))
                         {
                             res.Add(s1 + "." + s2 + "." + s3 + "." + s4);
