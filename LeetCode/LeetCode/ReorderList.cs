@@ -8,7 +8,7 @@ namespace LeetCode
     {
         public void ReorderListMethod(ListNode head)
         {
-            if (null == head)
+            if (null == head || head.next == null)
             {
                 return;
             }
