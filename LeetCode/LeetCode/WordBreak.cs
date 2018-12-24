@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LeetCode
 {
-    class WordBreak
+    public class WordBreak
     {
         public bool WordBreakMethod(string s, IList<string> wordDict)
         {
@@ -16,7 +16,7 @@ namespace LeetCode
             {
                 for (var j = 0; j <= i; j++)
                 {
-                    var sub = s.Substring(j, i + 2 - j);
+                    var sub = s.Substring(j, i + 1 - j);
 
                     if (wordDict.Contains(sub) && (j == 0 || dp[j - 1]))
                     {
