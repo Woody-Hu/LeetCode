@@ -89,14 +89,9 @@ namespace LeetCode
 
         private string ToString(List<string> input)
         {
-            var stringBuilder = new StringBuilder();
-            foreach (var item in input)
-            {
-                stringBuilder.Append(item);
+            var tag = $"{input[0]}#{input[1]}#{input[2]}";
 
-            }
-
-            return stringBuilder.ToString();
+            return tag;
         }
 
         private List<List<string>> GetAllPatterns(List<string> input)
