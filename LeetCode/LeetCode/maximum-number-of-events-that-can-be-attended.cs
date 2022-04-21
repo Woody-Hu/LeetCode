@@ -6,97 +6,43 @@ namespace LeetCode
 {
     public class maximum_number_of_events_that_can_be_attended
     {
+        private int[] _parents;
 
         public int MaxEvents(int[][] events)
         {
-            var n = events.Count();
-            var union = new Union(events);
-            for (int i = 0; i < n; i++)
+            var ordered = events.OrderBy(k => k[1]).ThenBy(k => k[0]);
+            var n = ordered.Count();
+            _parents = new int[ordered.Last()[1] + 2];
+            for (int i = 0; i < _parents.Length; i++)
             {
-                for (int j = i + 1; j < n; j++)
+                _parents[i] = i;
+            }
+
+            var res = 0;
+            foreach (var item in ordered)
+            {
+                var day = Find(item[0]);
+                if (day <= item[1])
                 {
-                    if (union.CanMerge(j, i))
-                    {
-                        union.Merge(i, j);
-                    }
+                    res++;
+                    _parents[Find(day)] = Find(day + 1);
                 }
             }
 
-            return union.GetResult();
+            return res;
         }
 
-        private class Union
+        private int Find(int i)
         {
-            private int[] _parents;
-            private Dictionary<int, int[]> _values = new Dictionary<int, int[]>(); 
-
-            public Union(int[][] events)
+            if (_parents[i] == i)
             {
-                var n = events.Count();
-                _parents = new int[n];
-                for (int i = 0; i < n; i++)
-                {
-                    _parents[i] = i;
-                    _values[i] = events[i];
-                }
+                return i;
             }
-
-            public int Find(int i)
+            else
             {
-                if (_parents[i] == i)
-                {
-                    return i;
-                }
-                else
-                {
-                    _parents[i] = Find(_parents[i]);
-                    return _parents[i];
-                }
+                _parents[i] = Find(_parents[i]);
+                return _parents[i];
             }
-
-            public void Merge(int first, int second)
-            {
-                var secondParentIndex = Find(second);
-                var firstParentIndex = Find(first);
-                var secondValue = _values[secondParentIndex];
-                var firstValue = _values[firstParentIndex];
-                _parents[Find(secondParentIndex)] = Find(firstParentIndex);
-                var newValue = new int[] { Math.Min(firstValue[0], secondValue[0]), Math.Max(firstValue[1], secondValue[1]) };
-                _values[firstParentIndex] = newValue;
-            }
-
-            public bool CanMerge(int first, int second)
-            {
-                var secondParentIndex = Find(second);
-                var firstParentIndex = Find(first);
-                if (_values[firstParentIndex][1] >= _values[secondParentIndex][0] && _values[secondParentIndex][1] >= _values[firstParentIndex][0])
-                {
-                    return true;
-                }
-
-                return false;
-            }
-
-            public int GetResult()
-            {
-                var set = new HashSet<int>();
-                var n = _parents.Count();
-                for (int i = 0; i < n; i++)
-                {
-                    set.Add(Find(i));
-                }
-
-                var res = 0;
-                foreach (var item in set)
-                {
-                    var value = _values[item];
-                    res += value[1] - value[0];
-                }
-
-                return res;
-            }
-
-
         }
     }
 }
