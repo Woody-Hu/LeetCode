@@ -29,7 +29,7 @@ namespace LeetCode
             }
 
             var res = 0;
-            for (int i = 01; i + k < oddIndexs.Count; i = i + 1)
+            for (int i = 1; i + k < oddIndexs.Count; i = i + 1)
             {
                 res += (oddIndexs[i] - oddIndexs[i-1]) * (oddIndexs[i + k] - oddIndexs[i+k-1]);
             }
