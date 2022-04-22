@@ -19,27 +19,23 @@ namespace LeetCode
                 dic[item]++;
             }
 
-            var sortList = new SortedList<string, int>();
-            foreach (var item in dic)
-            {
-                var record = $"{item.Value}_{item.Key}";
-                sortList.Add(record, item.Value);
-            }
-
+            var array = dic.Values.ToArray();
+            Array.Sort(array);
+            var index = 0;
             while (k > 0)
             {
-                var first = sortList.First();
-                var value = first.Value;
+                var first = array[index];
+                var value = first;
                 var subValue = Math.Min(value, k);
                 k = k - subValue;
                 value = value - subValue;
                 if (value == 0)
                 {
-                    sortList.RemoveAt(0);
+                    index++;
                 }
             }
 
-            return sortList.Count();
+            return array.Count() - index;
         }
     }
 }
