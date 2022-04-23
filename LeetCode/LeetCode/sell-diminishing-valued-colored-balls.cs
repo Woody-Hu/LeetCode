@@ -7,55 +7,34 @@ namespace LeetCode
     {
         public int MaxProfit(int[] inventory, int orders)
         {
-            Array.Sort(inventory);
-            var mod = 1000000007;
-            var l = 0;
-            var r = inventory.Max();
-            var target = 0;
-            while (l < r)
+            Array.Sort(inventory, (a, b) => b - a);
+            int idx = 0;
+            long currPrice = inventory[0], nextPrice = 0, sell = 0, res = 0;
+
+            while (orders > 0)
             {
-                var mid = (l + r) / 2;
-                var sum = inventory.Where(k => k >= mid).Select(k => k - mid).Sum();
-                if (sum > orders)
+                while (idx < inventory.Length && inventory[idx] == currPrice)
+                    idx++;
+
+                nextPrice = idx == inventory.Length ? 0 : inventory[idx];
+                sell = Math.Min(orders, idx * (currPrice - nextPrice));
+                long priceDiff = currPrice - nextPrice;
+                int remainder = 0;
+                if (orders < idx * (currPrice - nextPrice))
                 {
-                    l = mid + 1;
+                    priceDiff = orders / idx;
+                    remainder = orders % idx;
+                    nextPrice = currPrice - priceDiff;
                 }
-                else
-                {
-                    target = mid;
-                    r = mid - 1;
-                }
+
+                res = (res + (currPrice + nextPrice + 1) * priceDiff / 2 * idx + nextPrice * remainder) % 1000000007;
+                orders -= (int)sell;
+                currPrice = nextPrice;
             }
 
-            var rest = orders - inventory.Where(k => k >= target).Select(k => k - target).Sum();
-            long res = 0l;
-            foreach (var item in inventory)
-            {
-                if (item < target)
-                {
-                    continue;
-                }
-
-                if (rest > 0)
-                {
-                    res += Calculate(item, target) % mod;
-                    rest--;
-                }
-                else
-                {
-                    res += Calculate(item, target + 1) % mod;
-                }
-            }
-
-            return (int)(res % mod);
+            return (int)res;
 
         }
-
-        private long Calculate(long value, long target)
-        {
-            return (value + target) * (value - target + 1)/2l;
-        }
-
     }
 }
 
