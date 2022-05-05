@@ -6,7 +6,7 @@ namespace LeetCode
         public bool IsOneEditDistance(string s, string t)
         {
             var ls = s.Length;
-            var lt = s.Length;
+            var lt = t.Length;
             if (ls > lt)
             {
                 return IsOneEditDistance(t, s);
