@@ -7,68 +7,50 @@ namespace LeetCode
     {
         public int DeleteTreeNodes(int nodes, int[] parent, int[] value)
         {
-            var relations = new int[nodes];
+            if (nodes == 1)
+            {
+                return value[0] == 0 ? 0 : 1;
+            }
+
+            var children = new Dictionary<int, List<int>>();
             for (int i = 0; i < nodes; i++)
             {
-                relations[i] = i;
+                children.Add(i, new List<int>());
             }
 
             for (int i = 0; i < nodes; i++)
             {
-                if (parent[i] == -1)
+                var parentIndex = parent[i];
+                if (parentIndex == -1)
                 {
                     continue;
                 }
 
-                Merge(relations, parent[i], i);
+                children[parentIndex].Add(i);
             }
 
-            var dic = new Dictionary<int, KeyValuePair<int, int>>();
-            for (int i = 0; i < nodes; i++)
-            {
-                var ascendent = Find(relations, i);
-                if (!dic.ContainsKey(ascendent))
-                {
-                    var pair = new KeyValuePair<int, int>(1, value[i]);
-                    dic.Add(ascendent, pair);
-                }
-                else
-                {
-                    var exist = dic[ascendent];
-                    var pair = new KeyValuePair<int, int>(exist.Key + 1, exist.Value + value[i]);
-                    dic[ascendent] = pair;
-                }
-            }
-
-            var res = 0;
-            foreach (var item in dic)
-            {
-                if (item.Value.Value != 0)
-                {
-                    res += item.Value.Key;
-                }
-            }
-
-            return res;
+            var res = Visit(value, 0, children);
+            return res.Key == 0 ? 0 : res.Value;
         }
 
 
-        private int Find(int[] relations, int i)
+        private KeyValuePair<int, int> Visit(int[] value, int index, Dictionary<int, List<int>> children)
         {
-            if (relations[i] == i)
+            var currentValue = value[index];
+            var currentCount = 1;
+            foreach (var item in children[index])
             {
-                return i;
-            }
-            else
-            {
-                relations[i] = Find(relations, relations[i]);
-                return relations[i];
-            }
-        }
+                var childRes = Visit(value, item, children);
+                if (childRes.Key == 0)
+                {
+                    continue;
+                }
 
-        private void Merge(int[] relations, int parent, int child)
-        {
-            relations[Find(relations, child)] = relations[Find(relations, parent)];
+                currentValue += childRes.Key;
+                currentCount += childRes.Value;
+            }
+
+            return new KeyValuePair<int, int>(currentValue, currentCount);
         }
     }
 }
