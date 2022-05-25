@@ -15,7 +15,7 @@ namespace LeetCode
             if (x >= lists[len])
                 return lists.TakeLast(k).ToList();
 
-            var lastIndex = lists.BinarySearch(0, len, x, Comparer<int>.Default);
+            var lastIndex = lists.BinarySearch(x);
             if (lastIndex < 0)
                 lastIndex = -lastIndex - 1;
             var low = Math.Max(0, lastIndex - k - 1);
