@@ -17,19 +17,26 @@ namespace LeetCode
 
         private void Visit(TreeNode root, int current, ref int res)
         {
-            if (root == null)
+            int n = current ^ (1 << root.val);
+            if (root.left == null && root.right == null)
             {
-                if (current == 0 || (current & (current - 1)) == 0)
+                if (n == 0 || (n & (n - 1)) == 0)
                 {
-                    res++;
+                    ++res;
                 }
 
                 return;
             }
 
-            current = current ^ (1 << root.val);
-            Visit(root.left, current, ref res);
-            Visit(root.right, current, ref res);
+            if (root.left != null)
+            {
+                Visit(root.left, n, ref res);
+            }
+
+            if (root.right != null)
+            {
+                Visit(root.right, n, ref res);
+            }
         }
     }
 }
