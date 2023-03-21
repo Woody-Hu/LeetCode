@@ -6,7 +6,7 @@ namespace LeetCode
         public int MirrorReflection(int p, int q)
         {
             var g = GCD(p, q);
-            p /= g; g %= 2;
+            p /= g; p %= 2;
             q /= g; q %= 2;
             if (p == 1 && q == 1)
             {
