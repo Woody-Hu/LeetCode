@@ -15,7 +15,7 @@ namespace LeetCode
                 }
                 else
                 {
-                    res += count;
+                    res += ++count;
                 }
             }
 
