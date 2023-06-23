@@ -62,7 +62,7 @@ namespace LeetCode
             return cnt;
         }
 
-        private bool Judge(char[][] board, int x, int y, int dx, int dy)
+        public bool Judge(char[][] board, int x, int y, int dx, int dy)
         {
             x += dx;
             y += dy;
