@@ -7,14 +7,14 @@ namespace LeetCode
         {
             var m = grid.Length;
             var n = grid[0].Length;
-            var res = new int[m];
+            var res = new int[n];
             var max = 0;
-            for (int i = 0; i < m; i++)
+            for (int i = 0; i < n; i++)
             {
                 max = 0;
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < m; j++)
                 {
-                    max = Math.Max(grid[i][j].ToString().Length, max);
+                    max = Math.Max(grid[j][i].ToString().Length, max);
                 }
 
                 res[i] = max;
