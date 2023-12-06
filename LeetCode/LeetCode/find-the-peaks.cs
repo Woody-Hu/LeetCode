@@ -8,7 +8,7 @@ namespace LeetCode
         public IList<int> FindPeaks(int[] mountain)
         {
             var res = new List<int>();
-            for (int i = 2; i < mountain.Length - 1; i++)
+            for (int i = 1; i < mountain.Length - 1; i++)
             {
                 if (mountain[i] > mountain[i - 1] && mountain[i] > mountain[i + 1])
                 {
